@@ -1,0 +1,89 @@
+<!-- 作成日 2024-05-13 -->
+<!-- 製作者 中村一葉 -->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学生情報登録4</title>
+  <link rel="stylesheet" href="ensyu09_4.css">
+</head>
+
+<body>
+  <div class="header">
+    <h2>学生情報登録4</h2>
+    <p>必要事項を記入して登録ボタンを押してください</p>
+  </div>
+  <form action="#">
+    <div class="contact-form">
+      <div class="cotact-item">
+        <p class="form-title">学籍番号<span class="must">必須</span></p>
+        <input type="number" name="studentid">
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">氏名<span class="must">必須</span></p>
+        <input type="text" name="username">
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">電話番号<span class="must">必須</span></p>
+        <input type="tel" name="tel">
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">誕生日<span class="must">必須</span></p>
+        <input type="date" name="birthday">
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">メール</p>
+        <input type="email" name="mail">
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">住所</p>
+        <input type="text" name="addres">
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">性別<span class="must">必須</span></p>
+        <input type="radio" name="gender" value="男" checked>
+          <span>男</span>
+        <input type="radio" name="gender" value="女" id="woman">
+          <span>女</span>
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">学科<span class="must">必須</span></p>
+          <option value="情報大学併学科" selected>情報大学併学科</option>
+          <option value="システムエンジニア科">システムエンジニア科</option>
+          <option value="ITシステム科">ITシステム科</option>
+        </select>
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">受講科目(複数選択可)</p>
+          <span><input type="checkbox" name="subject" value="HMTL">HTML</span>
+          <span><input type="checkbox" name="subject" value="JAVA">JAVA</span>
+          <span><input type="checkbox" name="subject" value="SQL">SQL</span>
+          <span><input type="checkbox" name="subject" value="国対">国対</span>
+      </div>
+
+      <div class="cotact-item">
+        <p class="form-title">備考</span></p>
+          <textarea name="remarks" cols="40" rows="4" maxlength="40"></textarea>
+      </div>
+
+      <br/>
+
+      <div class="cotact-item">
+        <input class="btn" type="submit" onclick="alert('send now!');return false;" value="登録">
+        <input class="btn" type="reset" value="クリア">
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>

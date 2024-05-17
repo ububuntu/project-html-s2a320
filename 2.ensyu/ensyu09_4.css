@@ -1,0 +1,66 @@
+.header{
+  text-align: center; /*テキストを中央寄せ*/
+}
+
+.contact-form{
+  display: flex;/*flexboxレイアウト*/
+  flex-direction: column;/*子要素を上から下に並べる*/
+  max-width: 500px;/*要素の最大幅*/
+  margin: 0 auto;/*中央寄せ(左右余白自動)*/
+}
+
+.form-title{
+  margin-bottom: 2px;/*下部に余白*/
+  font-size: 1.2rem;/*文字サイズ*/
+}
+
+.contact-item input{
+  padding: 5px;/*上下左右に余裕*/
+  border-radius: 5px;/*枠線を角丸に*/
+  border: 1px solid #ccc;/*枠線*/
+  width: 100%;/*親要素の幅に*/
+}
+
+.contact-item select{
+  padding: 5px;/*上下左右に余裕*/
+  border-radius: 5px;/*枠線を角丸に*/
+  border: 1px solid #ccc;/*枠線*/
+  width: 100%;/*親要素の幅に*/
+}
+
+.contact-item input{
+  padding: 5px;/*上下左右に余裕*/
+  border-radius: 5px;/*枠線を角丸に*/
+  border: 1px solid #ccc;/*枠線*/
+  width: 60%;/*親要素の幅の60%*/
+}
+
+.contact-item textarea{
+  padding: 5px;/*上下左右に余裕*/
+  border-radius: 5px;/*枠線を角丸に*/
+  border: 1px solid #ccc;/*枠線*/
+  height: 100px;/*高さ*/
+  width: 100%;/*親要素の幅に*/
+}
+
+.must{
+  margin-left: 5px;/*左部の余白*/
+  padding: 2px;/*上下左右に余裕*/
+  font-size: 0.8rem;/*文字サイズ*/
+  background-color: red;/*背景色*/
+  color: #fff;/*文字色*/
+  border-radius: 5px;/*枠線を角丸に*/
+  border: 1px solid #ccc;/*枠線*/
+}
+
+.btn{
+  width: 100%;/*親要素の幅に*/
+  padding: 10px 50px;/*上下左右に余裕*/
+  background-color: #7f6666;/*背景色*/
+  font-size: 1.2rem;/*文字サイズ*/
+  color: #fff;/*文字色*/
+  font-weight: bold;/*文字を太く*/
+  border-radius: 10px;/*枠線を角丸に*/
+  margin-top: 10px;/*上部の余白*/
+  cursor: pointer;/*マウスカーソルの形状*/
+}
