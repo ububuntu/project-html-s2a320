@@ -189,7 +189,7 @@ img {
 }
 
 .main-visual-img-sub {
-  width: 15%;
+  width: 30%;
   margin-right: 20px;
 }
 
@@ -197,6 +197,9 @@ img {
   border-radius: 50%;
 }
 
+.main-visual-text-sub {
+  flex: 1;
+}
 /*--------------------------------
 Works
 ---------------------------------*/
