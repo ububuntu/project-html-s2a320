@@ -36,6 +36,12 @@ img {
   margin: 0 auto;
   padding: 0 40px;
 }
+.pos{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 100px;
+}
 
 /*--------------------------------
 見出し
@@ -459,6 +465,7 @@ Contact
 .clearbox a{
   text-decoration: none
 }
+
 /*--------------------------------
 sub
 ---------------------------------*/
@@ -482,4 +489,39 @@ sub
   height: 15px;
   background: #ccc;
   border-radius: 50%;
+}
+
+/*--------------------------------
+sub
+---------------------------------*/
+.recommend-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.recommend-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.recommend-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.recommend-body {
+  flex: 1;
+}
+
+.recommend-name {
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
 }
